@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.academiadecodigo.notorbios.pedrov.snakemultiplayer.gui.MainMenu">
+  <grid id="27dc6" binding="panelMainMenu" layout-manager="GridLayoutManager" row-count="16" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="529" height="564"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b9432" class="javax.swing.JLabel" binding="imgLogo">
+        <constraints>
+          <grid row="1" column="1" row-span="6" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <icon value="icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="600c5" class="javax.swing.JLabel" binding="txtInfo">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="INFO"/>
+        </properties>
+      </component>
+      <component id="5aef6" class="javax.swing.JLabel" binding="txtApple">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <icon value="map/apple.jpg"/>
+          <text value="The snake grows"/>
+        </properties>
+      </component>
+      <component id="5ac08" class="javax.swing.JLabel" binding="txtFreezer">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <icon value="map/freezer.jpg"/>
+          <text value="Opponent is frozen (5 seconds)"/>
+        </properties>
+      </component>
+      <component id="973" class="javax.swing.JLabel" binding="txtKeys">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <icon value="keys.jpg"/>
+          <text value=" Keys to move "/>
+        </properties>
+      </component>
+      <component id="c136d" class="javax.swing.JLabel" binding="btnRules">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <icon value="rules.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="eea0c" class="javax.swing.JLabel" binding="txtYouAre">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="YOU ARE?"/>
+        </properties>
+      </component>
+      <component id="585b3" class="javax.swing.JRadioButton" binding="radioClient">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font size="16" style="1"/>
+          <foreground color="-1"/>
+          <selected value="true"/>
+          <text value="Client"/>
+        </properties>
+      </component>
+      <component id="16956" class="javax.swing.JLabel" binding="txtServer">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <labelFor value="5d2b7"/>
+          <text value="Server Adress?"/>
+          <toolTipText value="IP of server"/>
+        </properties>
+      </component>
+      <component id="5d2b7" class="javax.swing.JTextField" binding="inputServer">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+          <toolTipText value="IP of server"/>
+        </properties>
+      </component>
+      <component id="daf3e" class="javax.swing.JRadioButton" binding="radioServer">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Server"/>
+        </properties>
+      </component>
+      <component id="13baa" class="javax.swing.JLabel" binding="txtBoard">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <labelFor value="b6590"/>
+          <text value="Board:"/>
+        </properties>
+      </component>
+      <component id="b6590" class="javax.swing.JComboBox" binding="cboxBoard">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="20x10"/>
+            <item value="25x15"/>
+            <item value="30x20"/>
+            <item value="35x25"/>
+          </model>
+          <selectedIndex value="2"/>
+        </properties>
+      </component>
+      <component id="c0f79" class="javax.swing.JLabel" binding="txtSpeed">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <labelFor value="f7280"/>
+          <text value="Speed:"/>
+        </properties>
+      </component>
+      <component id="f7280" class="javax.swing.JComboBox" binding="cboxSpeed">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Slow"/>
+            <item value="Medium"/>
+            <item value="Fast"/>
+          </model>
+          <selectedIndex value="1"/>
+        </properties>
+      </component>
+      <component id="6136f" class="javax.swing.JLabel" binding="txtIPAddress">
+        <constraints>
+          <grid row="11" column="3" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <text value="IP Adress: ?"/>
+        </properties>
+      </component>
+      <component id="45d2d" class="javax.swing.JButton" binding="btnPlay">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16742831"/>
+          <foreground color="-16777216"/>
+          <text value="START/PLAY"/>
+        </properties>
+      </component>
+      <vspacer id="63953">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="ef3af">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="32d77">
+        <constraints>
+          <grid row="1" column="0" row-span="14" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="25" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="1130d">
+        <constraints>
+          <grid row="1" column="5" row-span="14" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="25" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="e5089" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="2" row-span="14" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-8947849"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <component id="cf8f3" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-8947849"/>
+        </properties>
+      </component>
+      <component id="34da2" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="6" column="3" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-8947849"/>
+        </properties>
+      </component>
+      <component id="d7049" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-8947849"/>
+        </properties>
+      </component>
+      <component id="91515" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-8947849"/>
+        </properties>
+      </component>
+      <component id="60b1f" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-8947849"/>
+        </properties>
+      </component>
+      <component id="66849" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-8947849"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="radioTypePlayer">
+      <member id="585b3"/>
+      <member id="daf3e"/>
+    </group>
+  </buttonGroups>
+</form>
